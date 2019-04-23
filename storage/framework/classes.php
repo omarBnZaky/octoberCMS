@@ -156,4 +156,6 @@
   'Cms\\Twig\\ComponentNode' => 'modules/cms/twig/ComponentNode.php',
   'Cms\\Classes\\ComponentPartial' => 'modules/cms/classes/ComponentPartial.php',
   'Cms\\Helpers\\File' => 'modules/cms/helpers/File.php',
+  'omarbnzaky\\resources\\Plugin' => 'plugins/omarbnzaky/resources/Plugin.php',
+  'Omarbnzaky\\Resources\\Components\\Links' => 'plugins/omarbnzaky/resources/components/Links.php',
 );

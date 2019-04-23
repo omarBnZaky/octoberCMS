@@ -1,8 +1,19 @@
-1556040595a:1:{s:9:"about.htm";a:9:{s:8:"fileName";s:9:"about.htm";s:7:"content";s:114:"title = "About"
+1556043602a:1:{s:9:"about.htm";a:10:{s:8:"fileName";s:9:"about.htm";s:7:"content";s:251:"title = "About"
 url = "/about"
 layout = "test"
 is_hidden = 0
+
+[resourcesLinks]
+link1 = "www.facebook.com"
+link2 = "www.google.com"
+link3 = "www.twitter.com"
 ==
 <h1>About us </h1>
-<p>this is the about page </p>";s:5:"mtime";i:1556035688;s:6:"markup";s:50:"<h1>About us </h1>
-<p>this is the about page </p>";s:4:"code";N;s:5:"title";s:5:"About";s:3:"url";s:6:"/about";s:6:"layout";s:4:"test";s:9:"is_hidden";s:1:"0";}}
+<p>this is the about page </p>
+<hr>
+
+{% component 'resourcesLinks'%}";s:5:"mtime";i:1556042996;s:6:"markup";s:91:"<h1>About us </h1>
+<p>this is the about page </p>
+<hr>
+
+{% component 'resourcesLinks'%}";s:4:"code";N;s:5:"title";s:5:"About";s:3:"url";s:6:"/about";s:6:"layout";s:4:"test";s:9:"is_hidden";s:1:"0";s:14:"resourcesLinks";a:3:{s:5:"link1";s:16:"www.facebook.com";s:5:"link2";s:14:"www.google.com";s:5:"link3";s:15:"www.twitter.com";}}}
