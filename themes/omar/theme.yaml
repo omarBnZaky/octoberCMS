@@ -1,0 +1,17 @@
+name: Omar
+description: 'this is  a test theme'
+author: 'omar amr zaky'
+homepage: 'http//:bnzaky.com'
+code: ''
+
+form:
+    fields:
+        site_name:
+            label: Site name
+            comment: The website name as it should appear on the front-end
+            default: My Amazing Site!
+
+        site_description:
+            label: site description
+            comment: the global website description
+            default : this is a trst text which added by me

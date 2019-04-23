@@ -1,0 +1,32 @@
+description = "omar test theme"
+==
+<!DOCTYPE>
+<html>
+    <head>
+        <title>{{this.page.title}} </title>
+        <meta name="description"  content="{{this.page.meta_description}}">
+        <link rel="stylesheet" href="https://bootswatch.com/4/sandstone/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ 'assets/css/theme.css'|theme }}">
+        {% styles %}
+    </head>
+ 
+    <body>
+        <header>
+            {% partial 'header' %}
+        </header>
+
+        <div class="container">
+            {% page %}
+        </div>
+
+
+        <footer>
+            {% partial 'footer' %}
+        </footer>
+
+        <script src="{{'assets/vendor/jquery.js'|theme}}"> </script>
+        <script src="{{'assets/vendor/bootstrap.js'|theme}}"> </script>
+        <script src="{{'assets/javascript/app.js'|theme}}"> </script>
+
+    </body>
+</html> 

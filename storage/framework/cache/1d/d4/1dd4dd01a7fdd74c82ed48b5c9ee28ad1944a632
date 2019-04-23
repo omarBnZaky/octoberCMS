@@ -1,0 +1,49 @@
+1556040220a:1:{s:11:"contact.htm";a:11:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:786:"title = "Contact"
+url = "/contact"
+layout = "default"
+description = "contact us"
+is_hidden = 0
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "blog/category"
+==
+<h1>Contact us </h1>
+
+<form>
+      <div class="form-group">
+    <label for="name"> name</label>
+    <input type="text" class="form-control" id="name" placeholder="enter yourname">
+
+  </div>
+  <div class="form-group">
+    <label for="email">email</label>
+    <input type="email" class="form-control"  aria-describedby="emailHelp"id="email" placeholder="Enter your Email">
+  </div>
+  
+  <div class="form-group">
+    <label for="message">message</label>
+         <textarea id="message" class="form-control"></textarea>
+   </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</form>";s:5:"mtime";i:1555835337;s:6:"markup";s:624:"<h1>Contact us </h1>
+
+<form>
+      <div class="form-group">
+    <label for="name"> name</label>
+    <input type="text" class="form-control" id="name" placeholder="enter yourname">
+
+  </div>
+  <div class="form-group">
+    <label for="email">email</label>
+    <input type="email" class="form-control"  aria-describedby="emailHelp"id="email" placeholder="Enter your Email">
+  </div>
+  
+  <div class="form-group">
+    <label for="message">message</label>
+         <textarea id="message" class="form-control"></textarea>
+   </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</form>";s:4:"code";N;s:5:"title";s:7:"Contact";s:3:"url";s:8:"/contact";s:6:"layout";s:7:"default";s:11:"description";s:10:"contact us";s:9:"is_hidden";s:1:"0";s:8:"blogPost";a:2:{s:4:"slug";s:11:"{{ :slug }}";s:12:"categoryPage";s:13:"blog/category";}}}

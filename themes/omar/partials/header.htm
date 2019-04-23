@@ -1,0 +1,27 @@
+
+        <!--start navbar-->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">{{this.theme.site_name}}</a>
+              
+                <!-- Links -->
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link{% if this.page.id == 'home' %}class="active"{% endif %}" href="{{'home'|page}}">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link{% if this.page.id == 'about' %}class="active"{% endif %}" href="{{'about'|page}}">About</a>
+                    </li>
+              
+                    <li class="nav-item">
+                        <a class="nav-link{% if this.page.id == 'contact' %}class="active"{% endif %}" href="{{'contact'|page}}">Contact </a>
+                      </li>
+                
+                        
+                      <li class="nav-item">
+                          <a class="nav-link{% if this.page.id == 'blog' %}class="active"{% endif %}" href="{{'blog'|page}}"> Blog </a>
+                        </li>
+                  
+                </ul>
+              </nav>
+        <!--end navbar-->
